@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Escena 3D inicial creada con Three.js." />
+		<title>Proyecto 3D</title>
+		<script type="module" crossorigin src="./assets/proyecto3d-APwYrD5L.js"></script>
+		<link rel="modulepreload" crossorigin href="./assets/audio-DseFahZG.js">
+		<link rel="stylesheet" crossorigin href="./assets/styles-B_f9Kj9w.css">
+	</head>
+	<body class="scene-page">
+		<header class="scene-toolbar">
+			<a class="back-link" href="/" aria-label="Volver al inicio">← Inicio</a>
+			<div>
+				<p class="scene-label">Plantilla A</p>
+				<h1>Proyecto 3D</h1>
+			</div>
+			<button id="audio-toggle-btn" class="audio-btn" aria-label="Activar sonido">
+				<span class="audio-icon">🔇</span> <span class="audio-text">Activar sonido</span>
+			</button>
+			<button id="roof-toggle-btn" class="roof-btn" aria-label="Quitar o poner techo">
+				<span class="roof-icon">🏠</span> <span class="roof-text">Quitar techo</span>
+			</button>
+			<button id="view-toggle-btn" class="roof-btn" aria-label="Cambiar punto de vista">
+				<span class="roof-icon">💧</span> <span id="view-toggle-text" class="roof-text">Ver Rueda</span>
+			</button>
+			<p class="scene-help">Arrastrá para orbitar · Rueda para acercar · Botón derecho para desplazar</p>
+		</header>
+		<div id="scene-container" aria-label="Escena tridimensional"></div>
+	</body>
+</html>
